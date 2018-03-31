@@ -9,7 +9,7 @@ const gridToggler = (() => {
     gridGapY: 30,
     gridTiltX: 0,
     gridTiltY: 0,
-    gridColor: 'rgba(50, 154, 240, 1)',
+    gridColor: 'rgb(50, 154, 240)',
   };
 
   const queryX = document.querySelectorAll(config.targetX);
@@ -26,7 +26,7 @@ const gridToggler = (() => {
         z-index: 9999;
       }`,
       `.gt__btn-group {
-        box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .3);
+        box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, .3);
         display: inline-block;
         margin-bottom: 1rem;
       }`,
@@ -42,6 +42,9 @@ const gridToggler = (() => {
       }`,
       `.gt__btn:focus {
         outline: none;
+      }`,
+      `.gt__btn:first-child {
+        border-right: none;
       }`,
       `.gt__btn::before {
         content: "";
@@ -67,7 +70,7 @@ const gridToggler = (() => {
       `.gt__form {
         background: #fafafa;
         border:1px solid #aeaeae;
-        box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .3);
+        box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, .3);
         padding: 0.5rem;
       }`,
       `.gt__label {
