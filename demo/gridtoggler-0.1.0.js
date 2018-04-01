@@ -3,7 +3,7 @@
 const gridToggler = (() => {
   
   const config = {
-    targetX: 'body',
+    targetX: '#grid',
     targetY: 'body',
     gridGapX: 30,
     gridGapY: 30,
