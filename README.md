@@ -32,6 +32,10 @@ const config = {
     gridColor: 'rgb(50, 154, 240)',
 };
 ```
+### Major Todos
+
+*Source file needs to be properly commented.
+*Config tab need to be collapsible.
 
 ## License
 
