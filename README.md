@@ -6,7 +6,7 @@ A simple one-file javascript tool for better maintainance of vertical and/or hor
 
 ## Demo
 
-You can see demo at https://hyneks.github.io/gt-demo/.
+You can see a demo [here](https://hyneks.github.io/gt-demo/).
 
 ## Prerequisites
 
@@ -14,13 +14,13 @@ The script is written in ES6, so it will work only on browsers which supports it
 
 ## Installing
 
-Download and include the script right before the enclosing </body> tag:
+Download and include the script right before the enclosing `</body>` tag:
 
 ```html
 <script src='relative-path-to-file/gridtoggler-0.1.0.js'></script>
 ```
 
-You can configure the settings in the *config* object at the top of the JS file. The scripts currently supports only pixel values.
+You can configure settings via the *config* object at the top of the javascript file. The scripts currently supports only pixel values.
 
 ```javascript
 const config = {
