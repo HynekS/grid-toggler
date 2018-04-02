@@ -10,7 +10,7 @@ You can see a demo [here](https://hyneks.github.io/gt-demo/).
 
 ## Prerequisites
 
-The script is written in ES6, hence it will work only on browsers which supports it's (pretty basic) features.
+The script is written in ES6, hence it will work only on browsers which supports its (pretty basic) features.
 
 ## Installing
 
