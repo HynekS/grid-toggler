@@ -1,7 +1,7 @@
 // @ts-check;
 ;
 /**
- * The wrapper IIFE, being triggered by window 'load' event.
+ * The wrapper anonymous function, being triggered by window 'load' event.
  */
 window.addEventListener('load', () => {
   /**
