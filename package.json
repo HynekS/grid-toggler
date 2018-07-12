@@ -1,6 +1,6 @@
 {
   "name": "gridtoggler",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A simple one-file script for vertical and horizontal rhytm controll. Appends buttons to toggle vertical and/or horizontal grid with configurable gap and color",
   "main": "gridtoggler.js",
   "scripts": {
